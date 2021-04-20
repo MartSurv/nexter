@@ -1,7 +1,8 @@
 {
   "name": "nexter",
   "version": "1.0.0",
-  "description": "",
+  "description": "nexter",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "devserver": "live-server --open=/dist",
@@ -15,7 +16,6 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
-    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "node-sass": "^4.14.1"
   },

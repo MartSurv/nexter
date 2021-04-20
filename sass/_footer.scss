@@ -1,40 +1,40 @@
 .footer {
-    background-color: $color-secondary;
-    grid-column: full-start / full-end;
-    padding: 8rem;
+  background-color: $color-secondary;
+  grid-column: full-start / full-end;
+  padding: 8rem;
 }
 
 .nav {
-    list-style: none;
+  list-style: none;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    align-items: center;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  align-items: center;
+  gap: 2rem;
 
-    &__link:link,
-    &__link:visited {
-        font-size: 1.4rem;
-        color: #fff;
-        text-decoration: none;
-        font-family: $font-display;
-        text-align: center;
-        text-transform: uppercase;
-        padding: 1.5rem;
-        display: block;
-        transition: background-color .2s, transform .2s;
+  &__link:link,
+  &__link:visited {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: $font-display;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    display: block;
+    transition: background-color 0.2s, transform 0.2s;
 
-        &:hover,
-        &:active {
-            background-color: rgba($color: #FFF, $alpha: .5);
-            transform: translateY(-3px);
-        }
+    &:hover,
+    &:active {
+      background-color: rgba($color: #fff, $alpha: 0.5);
+      transform: translateY(-3px);
     }
+  }
 }
 
 .copyright {
-    font-size: 1.4rem;
-    color: $color-grey-light-2;
-    margin-top: 6rem;
-    text-align: center;
+  font-size: 1.4rem;
+  color: $color-grey-light-2;
+  margin-top: 6rem;
+  text-align: center;
 }
